@@ -1,6 +1,7 @@
 ﻿# IceyFabulash
  
 Christopher Reyes
+
 Ishamel Gomez
 
 This project is a single-page authentication UI for ICEY FABULASH with a responsive split-panel layout. The page uses HTML, CSS, and vanilla JavaScript to present a login and signup experience with client-side validation, password visibility toggles, and a polished beauty-brand aesthetic.
