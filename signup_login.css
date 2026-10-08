@@ -268,8 +268,13 @@ h1 {
     cursor: pointer;
 }
 
-.text-button:hover,
-.switch-prompt a:hover,
+.text-button:hover {
+    text-decoration: underline;
+}
+
+.switch-prompt a:hover {
+    text-decoration: underline;
+}
 
 .submit-button {
     width: 100%;
@@ -309,7 +314,6 @@ a:focus-visible {
     font-weight: 800;
     text-decoration: none;
 }
-
 
 @media (max-width: 720px) {
     .auth-shell {

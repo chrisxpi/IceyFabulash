@@ -43,12 +43,12 @@ document.querySelectorAll("[data-password-toggle]").forEach((button) => {
     });
 });
 
-function showPanel(panel) {
+function showPanel(panel, resetPrevious = true) {
     const isSignup = panel === "signup";
     const panelToShow = isSignup ? signupPanel : loginPanel;
     const panelToReset = isSignup ? loginPanel : signupPanel;
 
-    if (panelToShow.hidden) {
+    if (panelToShow.hidden && resetPrevious) {
         resetPanelState(panelToReset);
     }
 
@@ -59,7 +59,7 @@ function showPanel(panel) {
 }
 
 if (window.location.hash === "#signup") {
-    showPanel("signup");
+    showPanel("signup", false);
 }
 
 function setFieldError(input, message) {
