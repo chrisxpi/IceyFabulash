@@ -270,9 +270,6 @@ h1 {
 
 .text-button:hover,
 .switch-prompt a:hover,
-.back-link:hover {
-    text-decoration: underline;
-}
 
 .submit-button {
     width: 100%;
@@ -313,12 +310,6 @@ a:focus-visible {
     text-decoration: none;
 }
 
-.back-link {
-    margin-top: 1.25rem;
-    color: #806b75;
-    font-size: 0.84rem;
-    text-decoration: none;
-}
 
 @media (max-width: 720px) {
     .auth-shell {
